@@ -5,7 +5,7 @@ def main():
     
     if imc < 18.5:
         situacao = 'abaixo do peso'
-    elif imc >= 18.5 and imc < 25:
+    elif 18.5 <= imc < 25:
         situacao = 'peso normal'
     else:
         situacao = 'acima do peso'
